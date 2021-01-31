@@ -12,7 +12,7 @@ const computerWinsDisplay = document.getElementById('computer-wins');
 
 const guessButton = document.getElementById('guess');
 const nextRoundButton = document.getElementById('next-round')
-
+// test comment
 guessButton.addEventListener('click', () => {
   // Generate the target value
   target = generateTarget();
